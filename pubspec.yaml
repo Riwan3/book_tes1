@@ -1,0 +1,26 @@
+name: book_tes1
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0-273.0.dev <4.0.0"
+
+dependencies:
+  dio: ^5.4.0
+  editable_text: ^0.0.1
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.0.0
+  get: ^4.6.6
+  http: ^1.1.2
+  openapi:
+    path: api
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
